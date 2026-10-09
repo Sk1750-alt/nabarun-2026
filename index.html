@@ -7,8 +7,8 @@
     <meta name="description" content="Students of Shraddha Bhavan write on Durga Puja as Bengali cinema has seen it — essays, poems and a crossword." />
     <meta name="theme-color" content="#111111" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23111'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%23F1EFE8' stroke-width='1.5'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%23A8322A'/%3E%3C/svg%3E" />
-    <script type="module" crossorigin src="./assets/index-DHU_07kZ.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-Ck9xplTY.css">
+    <script type="module" crossorigin src="./assets/index-BSue-yEX.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-B6MelcG3.css">
   </head>
   <body>
     <a class="skip" href="#cover">সরাসরি পত্রিকায় যান · Skip to contents</a>
@@ -252,7 +252,7 @@
         <span class="toc__latin" lang="en">Reel IV · Durgeshgorer Guptodhon</span>
       </a>
       <ol>
-        <li style="--n:11" class="is-featured"><a href="#chalchitrer-sanket"><span class="toc__title" lang="bn"><em lang="bn">শিরোনামহীন</em></span><span class="toc__leader" aria-hidden="true"></span><span class="toc__author" lang="bn">নীলাদ্রি শেখর বিশ্বাস</span></a></li><li style="--n:12"><a href="#durgeshgorer-guptodhon"><span class="toc__title" lang="bn">দুর্গেশগড়ের গুপ্তধন: পুজোর আড়ালে ইতিহাসের ডাক</span><span class="toc__leader" aria-hidden="true"></span><span class="toc__author">Soham Malakar</span></a></li>
+        <li style="--n:11" class="is-featured"><a href="#chalchitrer-sanket"><span class="toc__title" lang="bn">চালচিত্রের সংকেত</span><span class="toc__leader" aria-hidden="true"></span><span class="toc__author" lang="bn">নীলাদ্রি শেখর বিশ্বাস</span></a></li><li style="--n:12"><a href="#durgeshgorer-guptodhon"><span class="toc__title" lang="bn">দুর্গেশগড়ের গুপ্তধন: পুজোর আড়ালে ইতিহাসের ডাক</span><span class="toc__leader" aria-hidden="true"></span><span class="toc__author">Soham Malakar</span></a></li>
       </ol>
     </section><section class="toc__reel">
       <a class="toc__reelhead" href="#durgatinashini">
@@ -530,14 +530,14 @@
   </header>
   <figure class="still reveal">
     <div class="still__mount"><img src="assets/art/durgeshgor.jpg" alt="Painting of a family in traditional dress before a Durga idol in a carved thakurdalan, for Durgeshgorer Guptodhon" width="522" height="417" loading="lazy" decoding="async"></div>
-    <figcaption><span lang="bn">দুর্গেশগড়ের গুপ্তধন</span><span class="still__en" lang="en">Painting by Daipayan Pal</span></figcaption>
+    <figcaption><span lang="bn">দুর্গেশগড়ের গুপ্তধন</span><span class="still__en" lang="en">Painting by Shubrajoyti Maity</span></figcaption>
   </figure>
     
     <article class="piece piece--essay piece--featured reveal" id="chalchitrer-sanket" lang="bn" aria-labelledby="chalchitrer-sanket-title">
   <header class="piece__head">
     <p class="selected-badge"><span lang="bn">নির্বাচিত</span><span class="selected-badge__en" lang="en">Editors’ selection</span></p>
     <p class="kind"><span lang="bn">প্রবন্ধ</span><span class="kind__en">Essay</span></p>
-    <div id="chalchitrer-sanket-title"><h3 class="piece__title piece__title--untitled" lang="bn">শিরোনামহীন <span lang="en">Untitled</span></h3></div>
+    <div id="chalchitrer-sanket-title"><h3 class="piece__title">চালচিত্রের সংকেত</h3></div>
     <p class="byline"><span class="byline__name" lang="bn">নীলাদ্রি শেখর বিশ্বাস</span><span class="byline__aff" lang="bn">তৃতীয় বর্ষ, অর্থনীতি বিভাগ</span></p>
     <dl class="slate-card"><div><dt>ছবি <span lang="en">Film</span></dt><dd lang="bn">দুর্গেশগড়ের গুপ্তধন</dd></div><div><dt>পরিচালনা <span lang="en">Director</span></dt><dd lang="bn">ধ্রুব বন্দ্যোপাধ্যায়</dd></div></dl>
   </header>
@@ -827,9 +827,19 @@
   
     <figure class="bts reveal">
       <div class="bts__frame">
-        <video controls playsinline preload="none" poster="assets/video/bts-poster.jpg" width="720" height="1280">
-          <source src="assets/video/bts.mp4" type="video/mp4">
-        </video>
+        <div class="player" data-player tabindex="-1">
+          <video controls controlslist="nodownload noplaybackrate noremoteplayback" disablepictureinpicture disableremoteplayback playsinline preload="metadata" poster="assets/video/bts-poster.jpg" width="720" height="1280">
+            <source src="assets/video/bts.mp4" type="video/mp4">
+          </video>
+          <button type="button" class="player__big" data-p="play" aria-label="ভিডিও চালান"><span aria-hidden="true"></span></button>
+          <div class="player__bar">
+            <button type="button" class="player__btn" data-p="toggle" aria-label="চালান"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="i-play" d="M8 5v14l11-7z"/><path class="i-pause" d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg></button>
+            <span class="player__time" data-p="time" lang="en">0:00 / 0:55</span>
+            <input class="player__seek" data-p="seek" type="range" min="0" max="1000" value="0" step="1" aria-label="ভিডিওর অবস্থান">
+            <button type="button" class="player__btn" data-p="mute" aria-label="শব্দ বন্ধ করুন"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z"/><path class="i-wave" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path class="i-x" d="M16 9l5 6M21 9l-5 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+            <button type="button" class="player__btn" data-p="full" aria-label="পূর্ণ পর্দা"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+          </div>
+        </div>
       </div>
       <figcaption><span lang="bn">নবারুণ তৈরির গল্প — শ্রদ্ধা ভবনের ছাত্রদের হাতে</span><span class="still__en" lang="en">The making of the wall magazine · 0:55</span></figcaption>
     </figure>
@@ -899,7 +909,7 @@
       </li><li class="credits__group" style="--n:15">
         <p class="credits__dept"><span lang="bn">দুর্গেশগড়ের গুপ্তধন</span><span class="credits__dept-en" lang="en">Durgeshgorer Guptodhon</span></p>
         <ul><li style="--n:16"><a class="credits__row" href="#chalchitrer-sanket">
-            <span class="credits__what" lang="bn">শিরোনামহীন</span>
+            <span class="credits__what" lang="bn">চালচিত্রের সংকেত</span>
             <span class="credits__dot" aria-hidden="true"></span>
             <span class="credits__who"><span class="credits__name" lang="bn">নীলাদ্রি শেখর বিশ্বাস</span><span class="credits__aff" lang="bn">তৃতীয় বর্ষ, অর্থনীতি বিভাগ</span></span>
           </a></li><li style="--n:17"><a class="credits__row" href="#durgeshgorer-guptodhon">
@@ -952,13 +962,17 @@
       </li><li class="credits__group" style="--n:30">
         <p class="credits__dept"><span lang="bn">শিল্পকর্ম</span><span class="credits__dept-en" lang="en">Artwork</span></p>
         <ul><li style="--n:31"><div class="credits__row">
-            <span class="credits__what" lang="en">Film paintings</span>
+            <span class="credits__what" lang="bn">দেবী, উমা, মহালয়া, দুর্গা দুর্গতিনাশিনী, জয় বাবা ফেলুনাথ</span>
             <span class="credits__dot" aria-hidden="true"></span>
-            <span class="credits__who"><span class="credits__name">Daipayan Pal</span></span>
+            <span class="credits__who"><span class="credits__name">Daipayan Pal</span><span class="credits__aff">UG-II, Dept. of Mathematics</span></span>
+          </div></li><li style="--n:32"><div class="credits__row">
+            <span class="credits__what" lang="bn">দুর্গেশগড়ের গুপ্তধন</span>
+            <span class="credits__dot" aria-hidden="true"></span>
+            <span class="credits__who"><span class="credits__name">Shubrajoyti Maity</span><span class="credits__aff">UG III, Dept. of Mathematics</span></span>
           </div></li></ul>
-      </li><li class="credits__group" style="--n:32">
+      </li><li class="credits__group" style="--n:33">
         <p class="credits__dept"><span lang="bn">ওয়েবসাইট</span><span class="credits__dept-en" lang="en">Website</span></p>
-        <ul><li style="--n:33"><div class="credits__row">
+        <ul><li style="--n:34"><div class="credits__row">
             <span class="credits__what" lang="en">Web Developer</span>
             <span class="credits__dot" aria-hidden="true"></span>
             <span class="credits__who"><span class="credits__name">Sagnik Kumar</span><span class="credits__aff">UG III, Dept. of Computer Science</span></span>
